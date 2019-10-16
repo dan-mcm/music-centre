@@ -14,6 +14,11 @@ class Social extends Component {
     return (
       <Wrapper>
         <div>
+          <h2>Want to be featured here?</h2>
+          <p>Feel free to reach out to <a href="mailto:info@music-centre.ie">info@music-centre.ie</a> with a link to your Instagram account</p>
+        </div>
+        <br/>
+        <div>
           <InstagramEmbed
           url='https://www.instagram.com/p/B29KkDGg-iZ'
           maxWidth={400}
@@ -26,10 +31,6 @@ class Social extends Component {
           onAfterRender={() => {}}
           onFailure={() => {}}
           />
-        </div>
-        <div>
-          <h2>Want to be featured here?</h2>
-          <p>Feel free to reach out to <a href="mailto:info@music-centre.ie">info@music-centre.ie</a> with a link to your Instagram account</p>
         </div>
       </Wrapper>
     );

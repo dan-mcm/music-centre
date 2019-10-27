@@ -98,7 +98,7 @@ class Home extends Component {
           <br/>
           <br/>
           <TextBlock>
-            That would be me - Dan. My own background in music revolves around several years of keyboard lessons, a few small piano
+            That would be me - Dan! My own background in music revolves around several years of keyboard lessons, a few small piano
             lessons and a lot of self-teaching in Piano, Guitar (acoustic and electric), Bass, Tin Whistle,
             Recorder and Ukulele. On the theoretical side of things I have a Bachelor of Arts Degree in Geography
             and Music, a Professional Diploma in Education from NUI Maynooth, and a Higher Diploma in Computer Science.

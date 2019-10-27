@@ -39,7 +39,7 @@ class Methodology extends Component {
           <li>The use of chord based harmonies with a multitude of instruments is often associated with the popular music genre</li>
         </NonbulletList>
 
-        <iframe src="https://giphy.com/embed/BABW5sTj8yHHq" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe title="cats playing piano" src="https://giphy.com/embed/BABW5sTj8yHHq" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
         <TextBlock>While these methods tend to lend themselves more favourably towards some genres of music and not so well towards others I maintain the firm believe that a well-rounded musician should have experience in all the aforementioned methods of learning his or her instrument. The problems with institutionalized forms of education is the necessity to get a group of individuals through a series of exams under a set amount of time. There is little time for the teacher to be able to explore specific students specialised areas of expertise in either listening, performing or oral performances.</TextBlock>
 
@@ -53,7 +53,7 @@ class Methodology extends Component {
 
         <TextBlock>A series of grade examinations are available to students undergoing such a rigorous method of learning an instrument. These tests examine their practical ability, as well as their aural and theoretical understanding of the music they are performing.</TextBlock>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/QkklAQLhnQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe title="2set violin"width="560" height="315" src="https://www.youtube.com/embed/QkklAQLhnQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <TextBlock></TextBlock>
         <hr />
 
@@ -63,7 +63,7 @@ class Methodology extends Component {
 
         <TextBlock>Outside of the Irish tradition other cultures such as those in Africa and South Asia have no legacy of stave music in their history and as such they have no reliance on such detailed forms of musical records. As a result their lessons are often given in groups using repeated rhythmic patterns usually outlined by a form of percussive drum. Again this form of musical transmission is all oral/aural. In some contexts the music in these cultures fulfills a ceremonial or religious ritual purpose and as such the musicians are regarded with different levels of respect. This is highly contrasting towards the Irish tradition which is primarily utilised for entertainment purposes, or in some cases for cultural preservation i.e. in Gaeltacht regions.</TextBlock>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/2ZxAVUsuE4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe title="Swallowtail Jig" width="560" height="315" src="https://www.youtube.com/embed/2ZxAVUsuE4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <TextBlock></TextBlock>
         <hr />
 
@@ -73,7 +73,7 @@ class Methodology extends Component {
 
         <TextBlock>Most (not all) popular hits follow a simplistic underlying harmonic progression. The following video presents a great example of this and helps to reflect the simplicity of the genre in contrast to the complex rhythms associated with classical works and folk tunes. For those curious the song uses the chord pattern: I-V-vi-IV pattern in the key of E Major (E-B-C#m-A)</TextBlock>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/5pidokakU4I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe title="4 Chords Song" width="560" height="315" src="https://www.youtube.com/embed/5pidokakU4I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
       </Wrapper>
     );

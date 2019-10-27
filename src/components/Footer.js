@@ -6,7 +6,7 @@ class Footer extends Component {
       <div>
         <hr/>
         <br/>
-        <footer>Daniel McMahon 2019 ©</footer>
+        <footer><a href="https://github.com/daniel40392">Daniel McMahon</a> 2019 ©</footer>
         <br/>
         <hr/>
       </div>

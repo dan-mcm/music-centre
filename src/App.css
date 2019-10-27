@@ -25,3 +25,8 @@ img {
   max-width: 500px;
   max-height: 500px;
 }
+
+body{
+  background-image:  url("/beanstalk.png");
+  background-repeat: repeat;
+}

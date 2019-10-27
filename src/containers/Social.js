@@ -7,6 +7,7 @@ const Wrapper = styled.div`
   width: 20%;
   text-align: center;
   padding: 10px;
+  background-color: white;
 `;
 
 class Social extends Component {

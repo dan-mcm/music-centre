@@ -3,10 +3,10 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   margin: auto;
-  width: 80%;
+  width: 70%;
   text-align: center;
-  border: 3px solid black;
   padding: 10px;
+  background-color: white;
 `;
 
 const NonbulletList = styled.ul`

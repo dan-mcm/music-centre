@@ -25,10 +25,10 @@ import vocalrythm from "../images/musictheory/vocal-rhythm.jpg";
 
 const Wrapper = styled.div`
   margin: auto;
-  width: 80%;
+  width: 70%;
   text-align: center;
-  border: 3px solid black;
   padding: 10px;
+  background-color: white;
 `;
 
 const NonbulletList = styled.ul`
@@ -71,21 +71,21 @@ class MusicTheory extends Component {
         <TextBlock>In order to be play instruments from sight-reading it is important to become familiar with the stave. The middle C key represents the start of the middle octave of a keyboard/piano. Keyboards (and some Pianos) come in different key sizes so this position may shift depending on the instrument, however it should always be at the same pitch as C4 (261.626hz).</TextBlock>
 
         <TextBlock>The following diagram represents the exact location of the keyboard notes in correspondence with their stave notation (note this applies to the white keys only).</TextBlock>
-
+        <br/>
         <img src={keyboardstave} alt="Keyboard stave"/>
         <br/>
         <TextBlock>Source: http://www.church-musician-jobs.com/keyboard-music.html</TextBlock>
         <br/>
         <TextBlock>A labelling of the lines on both the Treble and Bass Clef are provided here. In order to memorise them a series of word association is often used. To remember the notes associated with the treble clefs ledger lines the phrase ‘Every Good Boy Deserves Fruit’ is often used. To remember the spaces between the ledger lines FACE is often used. To memorise the bass clef ledger lines the phrase ‘Good Boys Deserve Fruit Always’ is often used, and to memorise the spaces the phrase ‘All Cows Eat Grass’ is often used.</TextBlock>
-
+        <br/>
         <img src={staveline} alt="Stave lines"/>
         <br/>
         <img src={stavespace} alt="Stave spaces"/>
         <br/>
         <TextBlock>Source: http://donrathjr.com/note-identification-music-theory-part-11/</TextBlock>
-
+        <br/>
         <TextBlock>In order to notate notes that exceed the range covered by the treble and bass clef stave lines further ledger lines are often used. A sample of these extra ledger lines is notated below.</TextBlock>
-
+        <br/>
         <img src={treblebass} alt="Ledger lines"/>
         <br/>
         <TextBlock>Source: http://donrathjr.com/note-identification-music-theory-part-11/</TextBlock>
@@ -152,7 +152,7 @@ class MusicTheory extends Component {
         <img src={emphasis44} alt="4-4"/>
         <br/>
         <TextBlock>Source: http://www.making-music.com/time-signatures-2.html</TextBlock>
-
+        <br/>
         <TextBlock>All these time signatures are in Simple time. However there are a series of Compound time signatures which have a numerator that is divisible by three. For example:</TextBlock>
         <br/>
         <img src={compounds} alt="Compound Meter"/>

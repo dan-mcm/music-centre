@@ -1,11 +1,23 @@
 import React, { Component } from "react";
+import styled from "styled-components";
+
+const CustomerHeader = styled.header`
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  background-color: DarkRed;
+`;
+
+const SiteTitle = styled.h1`
+  color: white;
+`
 
 class Header extends Component {
   render() {
     return (
-      <div>
-        <h1>Music Centre</h1>
-      </div>
+      <CustomerHeader>
+        <SiteTitle>Music Centre</SiteTitle>
+      </CustomerHeader>
     );
   }
 }

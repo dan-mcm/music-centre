@@ -3,10 +3,10 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   margin: auto;
-  width: 80%;
+  width: 70%;
   text-align: center;
-  border: 3px solid black;
   padding: 10px;
+  background-color: white;
 `;
 
 const NonbulletList = styled.ul`
@@ -29,6 +29,7 @@ class Methodology extends Component {
         <h2>Different Methods for Different People</h2>
 
         <TextBlock>All music can be categorized under three broad categories: Classical, Folk and Popular.</TextBlock>
+        <br/>
         <TextBlock>I would suggest that there are three ways of learning music and that each method lends itself particularly well to a specific genre:
         </TextBlock>
 

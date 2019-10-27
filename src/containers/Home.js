@@ -20,10 +20,10 @@ import danuku from "../images/bio/dmcm-uku.jpg";
 
 const Wrapper = styled.div`
   margin: auto;
-  width: 80%;
+  width: 70%;
   text-align: center;
-  border: 3px solid black;
   padding: 10px;
+  background-color: white;
 `;
 
 const TextBlock = styled.p`

@@ -33,6 +33,8 @@ const Wrapper = styled.div`
 
 const NonbulletList = styled.ul`
   list-style: none
+  margin: 0
+  padding: 0
 `;
 
 const TextBlock = styled.p`
@@ -54,19 +56,19 @@ class MusicTheory extends Component {
 
         <TextBlock>The topics included on this page cover:</TextBlock>
         <NonbulletList>
-            <li>Reading Pitch</li>
-            <li>Reading Accidentals</li>
-            <li>Key Signatures</li>
-            <li>Reading Rhythm</li>
-            <li>Time Signatures</li>
-            <li>Scales</li>
-            <li>Intervals</li>
-            <li>Chords</li>
+            <li><a href="#pitch">Reading Pitch</a></li>
+            <li><a href="#accidentals">Reading Accidentals</a></li>
+            <li><a href="#key-signatures">Key Signatures</a></li>
+            <li><a href="#reading-rhythm">Reading Rhythm</a></li>
+            <li><a href="#time-signatures">Time Signatures</a></li>
+            <li><a href="#scales">Scales</a></li>
+            <li><a href="#intervals">Intervals</a></li>
+            <li><a href="#making-chords">Chords</a></li>
         </NonbulletList>
 
         <hr />
 
-        <h2>Pitch</h2>
+        <h2 id="pitch">Pitch</h2>
 
         <TextBlock>In order to be play instruments from sight-reading it is important to become familiar with the stave. The middle C key represents the start of the middle octave of a keyboard/piano. Keyboards (and some Pianos) come in different key sizes so this position may shift depending on the instrument, however it should always be at the same pitch as C4 (261.626hz).</TextBlock>
 
@@ -92,7 +94,7 @@ class MusicTheory extends Component {
         <br />
         <hr />
 
-        <h2>Accidentals</h2>
+        <h2 id="accidentals">Accidentals</h2>
 
         <TextBlock>Outside of the basic notes depicted above, there are the issue of the other 7 notes on the keyboard (the black notes). In order to indicate to play these notes a series of accidentals are used. (These notes are only referred to as accidentals when they do not conform to the key signature) A sharp note is considered to be the black note to the right of the sharpened note. So for e.g. C# is the black note to the right of C, F# is the black note right of F etc. Flat notes are considered to be to the left of the note so Eb is to the black note to the left of E and Bb is the note to the left of B (double sharps and flats are two semitones to the left or right of the note, so Dx would be E and Dbb would be C).It’s important to note that C# and Db are on the same key of a modern piano/keyboard and are thus considered ‘enharmonically’ equivalent. However in the case of key signatures it is important for us to distinguish between when to use flats and when to use sharps – just as it’s important for us to know when to use upper case and lower letters when writing.</TextBlock>
 
@@ -105,7 +107,7 @@ class MusicTheory extends Component {
 
         <hr />
 
-        <h2>Key Signatures</h2>
+        <h2 id="key-signatures">Key Signatures</h2>
         <TextBlock>A majority of songs don’t stick to using pianos white keys and as a result of this they would have to repeatedly use accidentals over and over. In order to avoid this dilemma a series of key signatures was developed. These key signatures appear at the beginning of a piece after the clef and before the time signature. Any notes marked as sharp or flat in this space must continuously be played sharp or flat throughout the song unless otherwise indicated by an accidental. If a natural version of the note is to be played as opposed to its sharpened or flattened version as indicated by the key signature a natural sign may be used. A list of all the key signatures is provided below.</TextBlock>
         <br/>
         <img src={keysignatures} alt="Key signatures"/>
@@ -114,7 +116,7 @@ class MusicTheory extends Component {
 
         <hr />
 
-        <h2>Reading Rhythm</h2>
+        <h2 id="reading-rhythm">Reading Rhythm</h2>
         <TextBlock>In order to play music it is important to be able to read note rhythm values as well as pitch. Below is a list of different note/rest names. The note values are depicted on the left side of the Sign column, and the rest symbols are depicted on the right side of the Sign column. In the case of dotted notes, you add half the notes value onto itself. So a dotted minim would be worth 3 beats, a dotted crotchet would be worth a crotchet+quaver beat etc.</TextBlock>
 
         <br/>
@@ -136,7 +138,7 @@ class MusicTheory extends Component {
         <br />
         <hr />
 
-        <h2>Time Signatures</h2>
+        <h2 id="time-signatures">Time Signatures</h2>
         <TextBlock>Sheet music is divided up into a series of different bars. The amount and type of beats per bar is determined by the time signature. The metre is usually found next to the clef at the start of a piece of music, it may also change throughout a song so keep an eye on it. The following image is an example of what a 4/4 or common time metre looks like. Due to the frequency of use of 4/4 time it is sometimes written as just a C reflecting common time. 2/2 timing often referred to as cut common time is sometimes depicted by a C with a line through it.</TextBlock>
         <br/>
         <img src={commontime} alt="Common Time"/>
@@ -167,7 +169,7 @@ class MusicTheory extends Component {
 
         <hr />
 
-        <h2>Scales</h2>
+        <h2 id="scales">Scales</h2>
         <TextBlock>The basic foundations of any form of musical theory rely on an understanding of scales. Scales essentially function as the underlying 'alphabetical' structure of music. The easiest way to understand the formation of a scale is to examine the keys as they appear on a piano/keyboard. Specifically the collection of white notes only from C up to C which form the scale of C major. The scale of C consists of the notes C-D-E-F-G-A-B and a repetition of the C note at a higher octave.</TextBlock>
 
         <TextBlock>The 'major' aspect of the scale is as a result of the tonal space between each of the scale degrees i.e. C-D is a tone (which is 2 semitones), D-E is a tone, E-F is a semitone, F-G is a tone, G-A is a tone, A-B is a tone. From this we can see that a major scale consists of the following pattern of spatial relationships: T-T-S-T-T-T-S. An easier way to remember this pattern is to divide it into 3 parts, T-T-S; T; T-T-S. In order to form any major scale, you simply start on the note (e.g. G) and apply the series of tone and semitone gaps (G-A-B-C-D-E-F#-G).</TextBlock>
@@ -196,7 +198,7 @@ class MusicTheory extends Component {
         <TextBlock></TextBlock>
         <hr />
 
-        <h2>Intervals</h2>
+        <h2 id="intervals">Intervals</h2>
 
         <TextBlock>When examining the relationships between two separate notes we first look to our scale. For the purposes of explanation we shall stick with the key of C major which contains no sharps or flats. The following diagram is a breakdown of some of the basic intervals within the scale.</TextBlock>
         <br/>
@@ -210,7 +212,7 @@ class MusicTheory extends Component {
 
         <hr />
 
-        <h2>How to Make Chords</h2>
+        <h2 id="making-chords">How to Make Chords</h2>
         <TextBlock>With the basic knowledge of scale structures any chord can be formed. Examine the following table:</TextBlock>
         <br/>
         <table>

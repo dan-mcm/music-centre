@@ -4,7 +4,8 @@ import styled from "styled-components";
 const CustomerFooter = styled.footer`
   margin: auto;
   text-align: center;
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: DarkRed;
   color: white;
   border-top: 2px solid black;

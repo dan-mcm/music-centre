@@ -4,7 +4,8 @@ import styled from "styled-components";
 const CustomerHeader = styled.header`
   margin: auto;
   text-align: center;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: DarkRed;
   min-width: 600px;
 `;

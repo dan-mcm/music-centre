@@ -28,7 +28,8 @@ const Wrapper = styled.div`
   width: 70%;
   min-width: 600px;
   text-align: center;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: white;
   line-height: 1.6;
 `;

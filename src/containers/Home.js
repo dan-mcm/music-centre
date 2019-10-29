@@ -19,11 +19,12 @@ import dansuit from "../images/bio/dmcm-suit.jpg";
 import danuku from "../images/bio/dmcm-uku.jpg";
 
 const Wrapper = styled.div`
-  margin: auto;
+  margin: 0 auto;
   width: 70%;
   min-width: 600px;
   text-align: center;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: white;
   line-height: 1.6;
 `;

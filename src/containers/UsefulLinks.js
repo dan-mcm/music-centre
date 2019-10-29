@@ -16,6 +16,15 @@ const NonbulletList = styled.ul`
   padding: 0;
 `;
 
+const StyledLink = styled.a`
+  text-decoration: none;
+  font-weight: bold;
+  color: DarkRed;
+  &:hover {
+    text-decoration: underline;
+  }
+`
+
 class UsefulLinks extends Component {
   render() {
     return (
@@ -23,44 +32,44 @@ class UsefulLinks extends Component {
         <div>
           <h2>Sheet Music & Chord Resources</h2>
           <NonbulletList>
-            <li><a href="http://imslp.org/">International Music Score Library Project (IMSLP)</a></li>
-            <li><a href="https://www.ultimate-guitar.com/">Ultimate-Guitar</a></li>
+            <li><StyledLink href="http://imslp.org/">International Music Score Library Project (IMSLP)</StyledLink></li>
+            <li><StyledLink href="https://www.ultimate-guitar.com/">Ultimate-Guitar</StyledLink></li>
           </NonbulletList>
         </div>
         <div>
           <h2>Piano Tuning</h2>
           <NonbulletList>
-            <li><a href="https://www.murphypianotuning.ie/">Murph Piano Tuning & Repair</a></li>
-            <li><a href="https://www.foxandwolfe.com/">Fox & Wolfe</a></li>
+            <li><StyledLink href="https://www.murphypianotuning.ie/">Murph Piano Tuning & Repair</StyledLink></li>
+            <li><StyledLink href="https://www.foxandwolfe.com/">Fox & Wolfe</StyledLink></li>
           </NonbulletList>
         </div>
         <div>
           <h2>Music Stores</h2>
           <NonbulletList>
-            <li><a href="https://www.musicmaker.ie/">MusicMaker</a></li>
-            <li><a href="http://www.musicroom.com/">Musicroom</a></li>
+            <li><StyledLink href="https://www.musicmaker.ie/">MusicMaker</StyledLink></li>
+            <li><StyledLink href="http://www.musicroom.com/">Musicroom</StyledLink></li>
           </NonbulletList>
         </div>
         <div>
           <h2>Academic Resources</h2>
           <NonbulletList>
-            <li><a href="http://www.smei.ie/">Society for Music Education Ireland</a></li>
-            <li><a href="http://www.ictm.ie/">International Council for Traditional Music Ireland</a></li>
-            <li><a href="http://www.bachtrack.com/">Bachtrack</a></li>
+            <li><StyledLink href="http://www.smei.ie/">Society for Music Education Ireland</StyledLink></li>
+            <li><StyledLink href="http://www.ictm.ie/">International Council for Traditional Music Ireland</StyledLink></li>
+            <li><StyledLink href="http://www.bachtrack.com/">Bachtrack</StyledLink></li>
           </NonbulletList>
         </div>
         <div>
           <h2>YouTube</h2>
           <NonbulletList>
-            <li><a href="https://www.youtube.com/channel/UCAzKFALPuF_EPe-AEI0WFFw">TwoSetViolin</a></li>
+            <li><StyledLink href="https://www.youtube.com/channel/UCAzKFALPuF_EPe-AEI0WFFw">TwoSetViolin</StyledLink></li>
           </NonbulletList>
         </div>
         <div>
           <h2>Twitch</h2>
           <NonbulletList>
-            <li><a href="https://www.twitch.tv/sienimiili">sienimiili</a></li>
-            <li><a href="hhttps://www.twitch.tv/thatviolinchick">thatviolinchick</a></li>
-            <li><a href="https://www.twitch.tv/malukah">malukah</a></li>
+            <li><StyledLink href="https://www.twitch.tv/sienimiili">sienimiili</StyledLink></li>
+            <li><StyledLink href="hhttps://www.twitch.tv/thatviolinchick">thatviolinchick</StyledLink></li>
+            <li><StyledLink href="https://www.twitch.tv/malukah">malukah</StyledLink></li>
           </NonbulletList>
         </div>
       </Wrapper>

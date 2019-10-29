@@ -13,6 +13,10 @@ const CustomerFooter = styled.footer`
 
 const CustomLink = styled.a`
   color: white;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 `
 
 class Footer extends Component {

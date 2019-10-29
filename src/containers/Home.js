@@ -62,6 +62,15 @@ const FlippedImage = styled.img`
   transform: rotate(180deg);
 `
 
+const StyledLink = styled.a`
+  text-decoration: none;
+  font-weight: bold;
+  color: DarkRed;
+  &:hover {
+    text-decoration: underline;
+  }
+`
+
 class Home extends Component {
   render() {
     return (
@@ -103,7 +112,7 @@ class Home extends Component {
             lessons and a lot of self-teaching in Piano, Guitar (acoustic and electric), Bass, Tin Whistle,
             Recorder and Ukulele. On the theoretical side of things I have a Bachelor of Arts Degree in Geography
             and Music, a Professional Diploma in Education from NUI Maynooth, and a Higher Diploma in Computer Science.
-            You can check out some nerdy compositions I made over <a href="https://github.com/daniel40392/MusicPrograms">here</a>.
+            You can check out some nerdy compositions I made over <StyledLink href="https://github.com/daniel40392/MusicPrograms">here</StyledLink>.
           </TextBlock>
         </div>
         <hr />
@@ -113,9 +122,9 @@ class Home extends Component {
           <CenterBullets>
             <li>Music Lessons (Piano/Guitar)</li>
             <li>Special Ocassion Performances</li>
-            <li>Jamming Sessions / Accompanyment / Collaborations</li>
+            <li>Jamming Sessions / Accompaniment / Collaborations</li>
           </CenterBullets>
-          <p>If yes feel free to contact me - <a href="mailto:info@music-centre.ie">info@music-centre.ie</a></p>
+          <p>If yes feel free to contact me - <StyledLink href="mailto:info@music-centre.ie">info@music-centre.ie</StyledLink></p>
         </div>
 
         <hr />
@@ -127,7 +136,7 @@ class Home extends Component {
           </p>
           <hr />
           <p>
-            <h3>Train Stations (Looked after by <a href="https://www.murphypianotuning.ie/">Murphy's Piano Tuning</a>)</h3>
+            <h3>Train Stations (Looked after by <StyledLink href="https://www.murphypianotuning.ie/">Murphy's Piano Tuning</StyledLink>)</h3>
             <p>Pictured: Connolly (Dublin) / Kent (Cork) / Heuston (Dublin)</p>
             <img src={connolly} alt="Connolly station piano"/>
             <img src={corktrain} alt="Kent station piano"/>

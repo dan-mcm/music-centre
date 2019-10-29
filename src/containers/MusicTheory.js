@@ -47,6 +47,15 @@ const TextBlock = styled.p`
   padding-right: 2.5%;
 `
 
+const StyledLink = styled.a`
+  text-decoration: none;
+  font-weight: bold;
+  color: DarkRed;
+  &:hover {
+    text-decoration: underline;
+  }
+`
+
 class MusicTheory extends Component {
   render() {
     return (
@@ -57,14 +66,14 @@ class MusicTheory extends Component {
 
         <TextBlock>The topics included on this page cover:</TextBlock>
         <NonbulletList>
-            <li><a href="#pitch">Reading Pitch</a></li>
-            <li><a href="#accidentals">Reading Accidentals</a></li>
-            <li><a href="#key-signatures">Key Signatures</a></li>
-            <li><a href="#reading-rhythm">Reading Rhythm</a></li>
-            <li><a href="#time-signatures">Time Signatures</a></li>
-            <li><a href="#scales">Scales</a></li>
-            <li><a href="#intervals">Intervals</a></li>
-            <li><a href="#making-chords">Chords</a></li>
+            <li><StyledLink href="#pitch">Reading Pitch</StyledLink></li>
+            <li><StyledLink href="#accidentals">Reading Accidentals</StyledLink></li>
+            <li><StyledLink href="#key-signatures">Key Signatures</StyledLink></li>
+            <li><StyledLink href="#reading-rhythm">Reading Rhythm</StyledLink></li>
+            <li><StyledLink href="#time-signatures">Time Signatures</StyledLink></li>
+            <li><StyledLink href="#scales">Scales</StyledLink></li>
+            <li><StyledLink href="#intervals">Intervals</StyledLink></li>
+            <li><StyledLink href="#making-chords">Chords</StyledLink></li>
         </NonbulletList>
         <br />
         <hr />

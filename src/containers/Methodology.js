@@ -25,6 +25,15 @@ const TextBlock = styled.p`
   padding-right: 2.5%;
 `
 
+const StyledLink = styled.a`
+  text-decoration: none;
+  font-weight: bold;
+  color: DarkRed;
+  &:hover {
+    text-decoration: underline;
+  }
+`
+
 class Methodology extends Component {
   render() {
     return (
@@ -37,9 +46,9 @@ class Methodology extends Component {
         </TextBlock>
 
         <NonbulletList>
-          <li>The use of sight-reading is most often used in a <a href="#classical">classical context</a></li>
-          <li>The use of aural exposure and repetition is a method utilized most often in <a href="#folk">traditional and folk genres</a></li>
-          <li>The use of chord based harmonies with a multitude of instruments is often associated with the <a href="#popular">popular music genre</a></li>
+          <li>The use of sight-reading is most often used in a <StyledLink href="#classical">classical context</StyledLink></li>
+          <li>The use of aural exposure and repetition is a method utilized most often in <StyledLink href="#folk">traditional and folk genres</StyledLink></li>
+          <li>The use of chord based harmonies with a multitude of instruments is often associated with the <StyledLink href="#popular">popular music genre</StyledLink></li>
         </NonbulletList>
         <br/>
         <iframe title="cats playing piano" src="https://giphy.com/embed/BABW5sTj8yHHq" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>

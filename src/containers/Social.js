@@ -12,13 +12,22 @@ const Wrapper = styled.div`
   line-height: 1.6;
 `;
 
+const StyledLink = styled.a`
+  text-decoration: none;
+  font-weight: bold;
+  color: DarkRed;
+  &:hover {
+    text-decoration: underline;
+  }
+`
+
 class Social extends Component {
   render() {
     return (
       <Wrapper>
         <div>
           <h2>Want to be featured here?</h2>
-          <p>Feel free to reach out to <a href="mailto:info@music-centre.ie">info@music-centre.ie</a> with a link to your Instagram account</p>
+          <p>Feel free to reach out to <StyledLink href="mailto:info@music-centre.ie">info@music-centre.ie</StyledLink> with a link to your Instagram account</p>
         </div>
         <br/>
         <div>

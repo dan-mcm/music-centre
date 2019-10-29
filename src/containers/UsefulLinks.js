@@ -7,12 +7,13 @@ const Wrapper = styled.div`
   text-align: center;
   padding: 10px;
   background-color: white;
+  line-height: 1.6;
 `;
 
 const NonbulletList = styled.ul`
-  list-style: none
-  margin: 0
-  padding: 0
+  list-style: none;
+  margin: 0;
+  padding: 0;
 `;
 
 class UsefulLinks extends Component {

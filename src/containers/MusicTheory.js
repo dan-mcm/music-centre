@@ -29,6 +29,7 @@ const Wrapper = styled.div`
   text-align: center;
   padding: 10px;
   background-color: white;
+  line-height: 1.6;
 `;
 
 const NonbulletList = styled.ul`
@@ -65,7 +66,7 @@ class MusicTheory extends Component {
             <li><a href="#intervals">Intervals</a></li>
             <li><a href="#making-chords">Chords</a></li>
         </NonbulletList>
-
+        <br />
         <hr />
 
         <h2 id="pitch">Pitch</h2>

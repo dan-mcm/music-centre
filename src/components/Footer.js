@@ -8,6 +8,7 @@ const CustomerFooter = styled.footer`
   background-color: DarkRed;
   color: white;
   border-top: 2px solid black;
+  line-height: 1.6;
 `;
 
 const CustomLink = styled.a`

@@ -24,6 +24,7 @@ const Wrapper = styled.div`
   text-align: center;
   padding: 10px;
   background-color: white;
+  line-height: 1.6;
 `;
 
 const TextBlock = styled.p`
@@ -108,7 +109,7 @@ class Home extends Component {
         <hr />
         <div>
           <h2>Want to get in Contact?</h2>
-          <p>Interesting in any of the following?</p>
+          <p>Interested in any of the following?</p>
           <CenterBullets>
             <li>Music Lessons (Piano/Guitar)</li>
             <li>Special Ocassion Performances</li>

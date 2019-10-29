@@ -36,6 +36,8 @@ class UsefulLinks extends Component {
             <li><StyledLink href="https://www.ultimate-guitar.com/">Ultimate-Guitar</StyledLink></li>
           </NonbulletList>
         </div>
+        <br />
+        <hr />
         <div>
           <h2>Piano Tuning</h2>
           <NonbulletList>
@@ -43,6 +45,8 @@ class UsefulLinks extends Component {
             <li><StyledLink href="https://www.foxandwolfe.com/">Fox & Wolfe</StyledLink></li>
           </NonbulletList>
         </div>
+        <br />
+        <hr />
         <div>
           <h2>Music Stores</h2>
           <NonbulletList>
@@ -50,6 +54,8 @@ class UsefulLinks extends Component {
             <li><StyledLink href="http://www.musicroom.com/">Musicroom</StyledLink></li>
           </NonbulletList>
         </div>
+        <br />
+        <hr />
         <div>
           <h2>Academic Resources</h2>
           <NonbulletList>
@@ -58,12 +64,16 @@ class UsefulLinks extends Component {
             <li><StyledLink href="http://www.bachtrack.com/">Bachtrack</StyledLink></li>
           </NonbulletList>
         </div>
+        <br />
+        <hr />
         <div>
           <h2>YouTube</h2>
           <NonbulletList>
             <li><StyledLink href="https://www.youtube.com/channel/UCAzKFALPuF_EPe-AEI0WFFw">TwoSetViolin</StyledLink></li>
           </NonbulletList>
         </div>
+        <br />
+        <hr />
         <div>
           <h2>Twitch</h2>
           <NonbulletList>
@@ -72,6 +82,7 @@ class UsefulLinks extends Component {
             <li><StyledLink href="https://www.twitch.tv/malukah">malukah</StyledLink></li>
           </NonbulletList>
         </div>
+        <br />
       </Wrapper>
     );
   }

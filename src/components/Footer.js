@@ -9,6 +9,8 @@ const CustomerFooter = styled.footer`
   color: white;
   border-top: 2px solid black;
   line-height: 1.6;
+  font-weight: bold;
+  min-width: 600px;
 `;
 
 const CustomLink = styled.a`

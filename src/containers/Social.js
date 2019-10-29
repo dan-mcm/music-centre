@@ -5,7 +5,7 @@ import styled from "styled-components";
 const Wrapper = styled.div`
   margin: auto;
   width: 20%;
-  min-width: 400px;
+  min-width: 600px;
   text-align: center;
   padding: 10px;
   background-color: white;

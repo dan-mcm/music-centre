@@ -6,6 +6,7 @@ const CustomerHeader = styled.header`
   text-align: center;
   padding: 10px;
   background-color: DarkRed;
+  min-width: 600px;
 `;
 
 const SiteTitle = styled.h1`

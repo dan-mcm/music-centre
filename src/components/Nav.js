@@ -6,6 +6,7 @@ import styled from "styled-components";
 const CustomNav = styled.div`
   background-image:  url("/beanstalk-dark.png");
   background-repeat: repeat;
+  min-width: 600px;
 `
 
 const CustomLink = styled(Link)`

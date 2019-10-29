@@ -21,6 +21,7 @@ import danuku from "../images/bio/dmcm-uku.jpg";
 const Wrapper = styled.div`
   margin: auto;
   width: 70%;
+  min-width: 600px;
   text-align: center;
   padding: 10px;
   background-color: white;

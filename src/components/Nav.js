@@ -10,6 +10,11 @@ const CustomNav = styled.div`
 
 const CustomLink = styled(Link)`
   color: white;
+  text-decoration: none;
+  font-weight: bold;
+  &:hover {
+    text-decoration: underline;
+  }
 `
 
 class Nav extends Component {

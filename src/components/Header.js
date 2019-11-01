@@ -12,6 +12,8 @@ const CustomerHeader = styled.header`
 
 const SiteTitle = styled.h1`
   color: white;
+  font-family: 'Tangerine', serif;
+  font-size: 50px;
 `
 
 class Header extends Component {

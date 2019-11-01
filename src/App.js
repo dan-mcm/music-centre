@@ -2,13 +2,11 @@ import React from 'react';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
-
 import Home from "./containers/Home";
 import Methodology from "./containers/Methodology";
 import MusicTheory from "./containers/MusicTheory";
 import UsefulLinks from "./containers/UsefulLinks";
 import Social from "./containers/Social";
-
 import './App.css';
 import {
   BrowserRouter as Router,

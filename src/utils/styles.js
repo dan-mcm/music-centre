@@ -45,15 +45,15 @@ export const StyledLink = styled.a`
 
 export const TableCentered = styled.table`
   text-align: center;
-  border: 1px solid black;
   border-collapse: collapse;
   margin: auto;
   th {
-    border: 1px solid black;
+    border: 2px solid DarkRed;
     padding: 5px;
   }
   td {
-    border: 1px solid black;
+    border: 2px solid DarkRed;
+    font-weight: bold;
     padding: 5px;
   }
 `;

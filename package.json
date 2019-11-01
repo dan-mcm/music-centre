@@ -4,8 +4,8 @@
   "private": true,
   "author": "Daniel McMahon <daniel40392@gmail.com>",
   "bugs": {
-      "url": "https://github.com/daniel40392/music-centre/issues"
-    },
+    "url": "https://github.com/daniel40392/music-centre/issues"
+  },
   "dependencies": {
     "grid-styled": "^5.0.2",
     "react": "^16.10.2",
@@ -19,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,6 +38,8 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "prettier": "^1.18.2"
-  }
+  },
+  "homepage": "http://daniel40392.github.io/music-centre"
 }

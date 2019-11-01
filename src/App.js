@@ -20,11 +20,11 @@ function App() {
     <Router>
       <div>
         <Nav/>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/methodology" component={Methodology} />
-        <Route exact path="/music-theory" component={MusicTheory} />
-        <Route exact path="/useful-links" component={UsefulLinks} />
-        <Route exact path="/social" component={Social} />
+        <Route exact path="/music-centre/" component={Home} />
+        <Route exact path="/music-centre/methodology" component={Methodology} />
+        <Route exact path="/music-centre/music-theory" component={MusicTheory} />
+        <Route exact path="/music-centre/useful-links" component={UsefulLinks} />
+        <Route exact path="/music-centre/social" component={Social} />
       </div>
     </Router>
     <Footer />

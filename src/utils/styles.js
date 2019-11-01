@@ -9,27 +9,33 @@ export const CenterBullets = styled.ul`
 `;
 
 export const Flip90Image = styled.img`
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 300px;
+  max-height: 300px;
   -webkit-transform: rotate(270deg);
  -moz-transform: rotate(270deg);
  -o-transform: rotate(270deg);
  -ms-transform: rotate(270deg);
  transform: rotate(270deg);
  border-radius: 50%;
- border: 2px solid DarkRed;
- max-width: 300px;
+ border: 1px solid black;
  box-shadow: 10px 10px 5px grey;
+ padding: 10px;
+ border: 1px solid black;
+ margin: 10px
 `
 
 export const FlippedImage = styled.img`
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 300px;
+  max-height: 300px;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+  box-shadow: -10px -10px 5px grey;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px
 `
 
 export const NonbulletList = styled.ul`
@@ -51,12 +57,13 @@ export const TableCentered = styled.table`
   text-align: center;
   border-collapse: collapse;
   margin: auto;
+  box-shadow: 10px 10px 5px grey;
   th {
-    border: 2px solid DarkRed;
+    border: 2px solid black;
     padding: 5px;
   }
   td {
-    border: 2px solid DarkRed;
+    border: 2px solid black;
     font-weight: bold;
     padding: 5px;
   }
@@ -87,4 +94,9 @@ export const Wrapper = styled.div`
   padding-bottom: 10px;
   background-color: white;
   line-height: 1.6;
-`;
+`
+
+export const StandardImage = styled.img`
+  max-width: 500px;
+  max-height: 500px;
+`

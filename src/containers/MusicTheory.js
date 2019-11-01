@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Wrapper, NonbulletList, TableCentered, TextBlock, SourceBlock, StyledLink } from "../utils/styles.js"
+import { Wrapper, NonbulletList, TableCentered, TextBlock, SourceBlock, StandardImage, StyledLink } from "../utils/styles.js"
 
 // image imports
 import accidentals from "../images/musictheory/accidentals.png";
@@ -51,21 +51,21 @@ class MusicTheory extends Component {
 
         <TextBlock>The following diagram represents the exact location of the keyboard notes in correspondence with their stave notation (note this applies to the white keys only).</TextBlock>
         <br/>
-        <img src={keyboardstave} alt="Keyboard stave"/>
+        <StandardImage src={keyboardstave} alt="Keyboard stave"/>
         <br/>
         <SourceBlock>Source: http://www.church-musician-jobs.com/keyboard-music.html</SourceBlock>
         <br/>
         <TextBlock>A labelling of the lines on both the Treble and Bass Clef are provided here. In order to memorise them a series of word association is often used. To remember the notes associated with the treble clefs ledger lines the phrase ‘Every Good Boy Deserves Fruit’ is often used. To remember the spaces between the ledger lines FACE is often used. To memorise the bass clef ledger lines the phrase ‘Good Boys Deserve Fruit Always’ is often used, and to memorise the spaces the phrase ‘All Cows Eat Grass’ is often used.</TextBlock>
         <br/>
-        <img src={staveline} alt="Stave lines"/>
+        <StandardImage src={staveline} alt="Stave lines"/>
         <br/>
-        <img src={stavespace} alt="Stave spaces"/>
+        <StandardImage src={stavespace} alt="Stave spaces"/>
         <br/>
         <SourceBlock>Source: http://donrathjr.com/note-identification-music-theory-part-11/</SourceBlock>
         <br/>
         <TextBlock>In order to notate notes that exceed the range covered by the treble and bass clef stave lines further ledger lines are often used. A sample of these extra ledger lines is notated below.</TextBlock>
         <br/>
-        <img src={treblebass} alt="Ledger lines"/>
+        <StandardImage src={treblebass} alt="Ledger lines"/>
         <br/>
         <SourceBlock>Source: http://donrathjr.com/note-identification-music-theory-part-11/</SourceBlock>
         <br />
@@ -77,7 +77,7 @@ class MusicTheory extends Component {
 
         <TextBlock>Accidental Symbols:</TextBlock>
         <br/>
-        <img src={accidentals} alt="Accidentals"/>
+        <StandardImage src={accidentals} alt="Accidentals"/>
         <br/>
         <SourceBlock>Source: http://tlt.its.psu.edu/mto/music/keyboard.html</SourceBlock>
         <br/>
@@ -88,7 +88,7 @@ class MusicTheory extends Component {
         <h2 id="key-signatures">Key Signatures</h2>
         <TextBlock>A majority of songs don’t stick to using pianos white keys and as a result of this they would have to repeatedly use accidentals over and over. In order to avoid this dilemma a series of key signatures was developed. These key signatures appear at the beginning of a piece after the clef and before the time signature. Any notes marked as sharp or flat in this space must continuously be played sharp or flat throughout the song unless otherwise indicated by an accidental. If a natural version of the note is to be played as opposed to its sharpened or flattened version as indicated by the key signature a natural sign may be used. A list of all the key signatures is provided below.</TextBlock>
         <br/>
-        <img src={keysignatures} alt="Key signatures"/>
+        <StandardImage src={keysignatures} alt="Key signatures"/>
         <br/>
         <SourceBlock>Source: http://music.thefxcode.com/0009.htm</SourceBlock>
 
@@ -98,19 +98,19 @@ class MusicTheory extends Component {
         <TextBlock>In order to play music it is important to be able to read note rhythm values as well as pitch. Below is a list of different note/rest names. The note values are depicted on the left side of the Sign column, and the rest symbols are depicted on the right side of the Sign column. In the case of dotted notes, you add half the notes value onto itself. So a dotted minim would be worth 3 beats, a dotted crotchet would be worth a crotchet+quaver beat etc.</TextBlock>
 
         <br/>
-        <img src={rhythm} alt="Rhythms"/>
+        <StandardImage src={rhythm} alt="Rhythms"/>
         <br/>
         <SourceBlock>Source: http://teacher-monica.blogspot.ie/2011/01/year-3-music-whats-in-rhythm.html</SourceBlock>
 
         <TextBlock>Semibreves last for a period of 4 beats, minims last 2 beats, crotchets last 1 beat, quavers last half a beat and semiquavers last a quarter of a beat. The next diagram shows a breakdown of all the notes into their subsequent parts.</TextBlock>
         <br/>
-        <img src={rhythmhierarchy} alt="Rhythm hierarchy"/>
+        <StandardImage src={rhythmhierarchy} alt="Rhythm hierarchy"/>
         <br/>
         <SourceBlock>Source: http://www.dummies.com/how-to/content/how-to-read-music-note-values.navId-407233.html</SourceBlock>
 
         <TextBlock>A vocal guide is often used to help familiarise students with the variety of beats. This guide has been provided below</TextBlock>
         <br/>
-        <img src={vocalrythm} alt="Vocal rhythms"/>
+        <StandardImage src={vocalrythm} alt="Vocal rhythms"/>
         <br/>
         <SourceBlock>Source: http://www.soundpiper.com/elements/rhythm.htm</SourceBlock>
         <br />
@@ -119,29 +119,29 @@ class MusicTheory extends Component {
         <h2 id="time-signatures">Time Signatures</h2>
         <TextBlock>Sheet music is divided up into a series of different bars. The amount and type of beats per bar is determined by the time signature. The metre is usually found next to the clef at the start of a piece of music, it may also change throughout a song so keep an eye on it. The following image is an example of what a 4/4 or common time metre looks like. Due to the frequency of use of 4/4 time it is sometimes written as just a C reflecting common time. 2/2 timing often referred to as cut common time is sometimes depicted by a C with a line through it.</TextBlock>
         <br/>
-        <img src={commontime} alt="Common Time"/>
+        <StandardImage src={commontime} alt="Common Time"/>
         <br/>
         <SourceBlock>Source:  http://codamusictheory.com/meter1.htm </SourceBlock>
 
         <TextBlock>The numerator (top number) reflects how many beats there are per measure (bar). The denominator (bottom number) tells us what note values the beats get. In the case above it is saying that there are 4 crotchet (quarter note) beats in a bar. A 6/8 time signature would reflect that there are 6 quaver (eight note) beats per bar. These time signatures also tell us where the emphasis of a beat is. Some examples of these implied emphasis’ include:</TextBlock>
         <br/>
-        <img src={emphasis22} alt="2-2"/>
-        <img src={emphasis24} alt="2-4"/>
-        <img src={emphasis28} alt="2-8"/>
-        <img src={emphasis34} alt="3-4"/>
-        <img src={emphasis44} alt="4-4"/>
+        <StandardImage src={emphasis22} alt="2-2"/>
+        <StandardImage src={emphasis24} alt="2-4"/>
+        <StandardImage src={emphasis28} alt="2-8"/>
+        <StandardImage src={emphasis34} alt="3-4"/>
+        <StandardImage src={emphasis44} alt="4-4"/>
         <br/>
         <SourceBlock>Source: http://www.making-music.com/time-signatures-2.html</SourceBlock>
         <br/>
         <TextBlock>All these time signatures are in Simple time. However there are a series of Compound time signatures which have a numerator that is divisible by three. For example:</TextBlock>
         <br/>
-        <img src={compounds} alt="Compound Meter"/>
+        <StandardImage src={compounds} alt="Compound Meter"/>
         <br/>
         <SourceBlock>Source: http://www.making-music.com/time-signatures-2.html</SourceBlock>
 
         <TextBlock>In simple time, the rhythm or pulse is essentially the upper figure. So in 2/4 time there are two pulses to the bar, in 3/4 there are three pulses and in 4/4 there are four. In compound time, divide the upper number by three to find the main beat. For example:</TextBlock>
         <br/>
-        <img src={compoundsimple} alt="Simple Compound"/>
+        <StandardImage src={compoundsimple} alt="Simple Compound"/>
         <br/>
         <SourceBlock>Examples taken from: http://www.making-music.com/time-signatures-2.html</SourceBlock>
 
@@ -170,7 +170,7 @@ class MusicTheory extends Component {
 
         <br/>
 
-        <img src={modes8} alt="Modes"/>
+        <StandardImage src={modes8} alt="Modes"/>
         <br/>
         <SourceBlock>Source: http://en.wikipedia.org/wiki/Mode_(music)</SourceBlock>
         <hr />
@@ -179,7 +179,7 @@ class MusicTheory extends Component {
 
         <TextBlock>When examining the relationships between two separate notes we first look to our scale. For the purposes of explanation we shall stick with the key of C major which contains no sharps or flats. The following diagram is a breakdown of some of the basic intervals within the scale.</TextBlock>
         <br/>
-        <img src={intervals} alt="intervals"/>
+        <StandardImage src={intervals} alt="intervals"/>
         <br/>
         <SourceBlock>Source: http://academy.musiclassroom.com/en/free-lessons/jazz-piano/beginner</SourceBlock>
 
@@ -206,7 +206,7 @@ class MusicTheory extends Component {
 
         <TextBlock>The cycle below read clockwise consists of the cycle of fifths and read anticlockwise consists of the cycle of fourths. generally speaking the keys located beside each other are the best to modulate to. However other types of modulation are also available for use. Modal swaps whereby you shift from your current key to its parallel major (or minor) i.e. in the key of C major modulating to C minor or visa versa. When in a major key the relative minor (chord vi) is also a good choice for modulation due to their sharing of the same key signature. When in a minor key, the III chord is the relative major and is also good to modulate to. </TextBlock>
         <br/>
-        <img src={chordwheel} alt="Cycle of Fifths"/>
+        <StandardImage src={chordwheel} alt="Cycle of Fifths"/>
         <br/>
         <SourceBlock>Source: http://gorehound1313.wordpress.com/10-things-i-wish-my-guitar-teacher-told-me-on-day-one/common-beginner-mistakes/circle-of-fifths-for-guitarists/</SourceBlock>
 

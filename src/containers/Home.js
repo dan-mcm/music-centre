@@ -42,6 +42,14 @@ class Home extends Component {
         <div>
           <h2>Who is Music Centre?</h2>
           {/* issue with flip images overlapping paragraph below */}
+          <TextBlock>
+            That would be me - Dan! My own background in music revolves around several years of keyboard lessons, a few small piano
+            lessons and a lot of self-teaching in Piano, Guitar (acoustic and electric), Bass, Tin Whistle,
+            Recorder and Ukulele. On the theoretical side of things I have a Bachelor of Arts Degree in Geography
+            and Music, a Professional Diploma in Education from NUI Maynooth, and a Higher Diploma in Computer Science.
+            You can check out some nerdy compositions I made over <StyledLink href="https://github.com/daniel40392/MusicPrograms">here</StyledLink>.
+          </TextBlock>
+          <br/>
           <br/>
           <br/>
           <br/>
@@ -54,13 +62,6 @@ class Home extends Component {
           <br/>
           <br/>
           <br/>
-          <TextBlock>
-            That would be me - Dan! My own background in music revolves around several years of keyboard lessons, a few small piano
-            lessons and a lot of self-teaching in Piano, Guitar (acoustic and electric), Bass, Tin Whistle,
-            Recorder and Ukulele. On the theoretical side of things I have a Bachelor of Arts Degree in Geography
-            and Music, a Professional Diploma in Education from NUI Maynooth, and a Higher Diploma in Computer Science.
-            You can check out some nerdy compositions I made over <StyledLink href="https://github.com/daniel40392/MusicPrograms">here</StyledLink>.
-          </TextBlock>
         </div>
         <hr />
         <div>
@@ -72,6 +73,7 @@ class Home extends Component {
             <li>Jamming Sessions / Accompaniment / Collaborations</li>
           </CenterBullets>
           <p>If yes feel free to contact me - <StyledLink href="mailto:info@music-centre.ie">info@music-centre.ie</StyledLink></p>
+          <br/>
         </div>
 
         <hr />

@@ -65,6 +65,15 @@ export const TextBlock = styled.p`
   padding-right: 2.5%;
 `
 
+export const SourceBlock = styled.p`
+  text-align: left;
+  display: inline-block;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  font-size: 12px;
+  color: DarkRed;
+`
+
 export const Wrapper = styled.div`
   margin: 0 auto;
   width: 70%;

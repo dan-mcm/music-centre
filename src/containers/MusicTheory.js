@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Wrapper, NonbulletList, TextBlock, StyledLink } from "../utils/styles.js"
+import { Wrapper, NonbulletList, TableCentered, TextBlock, StyledLink } from "../utils/styles.js"
 
 // image imports
 import accidentals from "../images/musictheory/accidentals.png";
@@ -156,7 +156,7 @@ class MusicTheory extends Component {
 
         <TextBlock>The major and minor scales are those most frequently used to date, however they are derivative of older modal structures. The image below demonstrates the original types of modal structures used and explores their relationship to modern scales. Note that the Ionian is the equivalent to our Major scale and the Aeolian is the equivalent to our Natural Minor scale.</TextBlock>
         <br/>
-        <table>
+        <TableCentered>
           <tr><th>Mode</th><th>Tonic relative to major scale</th><th>Interval sequence</th><th>Example</th></tr>
           <tr><td>Ionian</td><td>I</td><td>T-T-s-T-T-T-s</td><td>C-D-E-F-G-A-B-C</td></tr>
           <tr><td>Dorian</td><td>II</td><td>	T-s-T-T-T-s-T</td><td>D-E-F-G-A-B-C-D</td></tr>
@@ -165,7 +165,7 @@ class MusicTheory extends Component {
           <tr><td>Mixolydian</td><td>V</td><td>T-T-s-T-T-s-T</td><td>G-A-B-C-D-E-F-G</td></tr>
           <tr><td>Aeolian</td><td>VI</td><td>T-s-T-T-s-T-T</td><td>A-B-C-D-E-F-G-A</td></tr>
           <tr><td>Locrian</td><td>VI</td><td>s-T-T-s-T-T-T</td><td>B-C-D-E-F-G-A-B</td></tr>
-        </table>
+        </TableCentered>
 
         <br/>
 
@@ -192,13 +192,13 @@ class MusicTheory extends Component {
         <h2 id="making-chords">How to Make Chords</h2>
         <TextBlock>With the basic knowledge of scale structures any chord can be formed. Examine the following table:</TextBlock>
         <br/>
-        <table>
+        <TableCentered>
           <tr><td>G</td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td></tr>
           <tr><td>E</td><td>F</td><td>G</td><td>A</td><td>B</td><td>C</td><td>D</td></tr>
           <tr><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>A</td><td>B</td></tr>
           <tr><td>I</td><td>ii</td><td>iii</td><td>IV</td><td>V</td><td>vi</td><td>vii</td></tr>
           <tr><td>C Major</td><td>D Minor</td><td>E Minor</td><td>F Major</td><td>G Major</td><td>A Minor</td><td>B Minor&deg;</td></tr>
-        </table>
+        </TableCentered>
         <br/>
         <TextBlock>This table outlines all the basic triads suitable for use in a C major scale. The chords are based on all the notes of the C major scale (C-D-E-F-G-A-B-C). In order to construct the triads on each of the scale degrees, a series of tonal relationships need to be met. These chords all feature an interval of a third (major or minor) and a perfect fifth. The third is what defines the chord as major or minor. The table above is the guideline used for leaving certificate students doing composition work. In reality chords ii, iii, vi and vii can use both minor or major versions of the chord, the same goes for chords I, IV and V. When trying to understand the relationship between chords the cycle of fifths and fourths is important to consider. Modulations occur in compositions from one key signature to the next, whether it be major to minor, major to major, minor to minor or modal or modal. The closer the keys are related to each other the more harmonically clear they will sound.</TextBlock>
 

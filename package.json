@@ -2,6 +2,10 @@
   "name": "music-centre",
   "version": "0.1.0",
   "private": true,
+  "author": "Daniel McMahon <daniel40392@gmail.com>",
+  "bugs": {
+      "url": "https://github.com/daniel40392/music-centre/issues"
+    },
   "dependencies": {
     "grid-styled": "^5.0.2",
     "react": "^16.10.2",

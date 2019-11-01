@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/music-centre/static/css/main.9c77feac.chunk.css",
-    "main.js": "/music-centre/static/js/main.6b594d20.chunk.js",
-    "main.js.map": "/music-centre/static/js/main.6b594d20.chunk.js.map",
+    "main.js": "/music-centre/static/js/main.8d8eeeb1.chunk.js",
+    "main.js.map": "/music-centre/static/js/main.8d8eeeb1.chunk.js.map",
     "runtime-main.js": "/music-centre/static/js/runtime-main.d11bf3f9.js",
     "runtime-main.js.map": "/music-centre/static/js/runtime-main.d11bf3f9.js.map",
     "static/js/2.3f6584b6.chunk.js": "/music-centre/static/js/2.3f6584b6.chunk.js",
     "static/js/2.3f6584b6.chunk.js.map": "/music-centre/static/js/2.3f6584b6.chunk.js.map",
     "index.html": "/music-centre/index.html",
-    "precache-manifest.f24dde61d51956f2ac9ee89c7e72310b.js": "/music-centre/precache-manifest.f24dde61d51956f2ac9ee89c7e72310b.js",
+    "precache-manifest.ec0085f7262d5f8cc3f972e8546046c8.js": "/music-centre/precache-manifest.ec0085f7262d5f8cc3f972e8546046c8.js",
     "service-worker.js": "/music-centre/service-worker.js",
     "static/css/main.9c77feac.chunk.css.map": "/music-centre/static/css/main.9c77feac.chunk.css.map",
     "static/media/4-4 Emphasis.jpg": "/music-centre/static/media/4-4 Emphasis.dc318d94.jpg",
@@ -42,6 +42,6 @@
     "static/js/runtime-main.d11bf3f9.js",
     "static/js/2.3f6584b6.chunk.js",
     "static/css/main.9c77feac.chunk.css",
-    "static/js/main.6b594d20.chunk.js"
+    "static/js/main.8d8eeeb1.chunk.js"
   ]
 }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import styled from "styled-components";
+import { Wrapper, NonbulletList, TextBlock, StyledLink } from "../utils/styles.js"
 
 // image imports
 import accidentals from "../images/musictheory/accidentals.png";
@@ -22,41 +22,6 @@ import staveline from "../images/musictheory/stave-line.jpg";
 import stavespace from "../images/musictheory/stave-space.jpg";
 import treblebass from "../images/musictheory/treblebass.jpg";
 import vocalrythm from "../images/musictheory/vocal-rhythm.jpg";
-
-const Wrapper = styled.div`
-  margin: auto;
-  width: 70%;
-  min-width: 600px;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: white;
-  line-height: 1.6;
-`;
-
-const NonbulletList = styled.ul`
-  list-style: none
-  margin: 0
-  padding: 0
-`;
-
-const TextBlock = styled.p`
-  text-align: left;
-  display: inline-block;
-  text-align: left;
-  display: inline-block;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
-`
-
-const StyledLink = styled.a`
-  text-decoration: none;
-  font-weight: bold;
-  color: DarkRed;
-  &:hover {
-    text-decoration: underline;
-  }
-`
 
 class MusicTheory extends Component {
   render() {

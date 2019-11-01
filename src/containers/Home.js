@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import styled from "styled-components";
+import { Wrapper, TextBlock, CenterBullets, Flip90Image, FlippedImage, StyledLink } from "../utils/styles"
 
 // Piano Images
 import connolly from "../images/pianos/connolly-train.jpg";
@@ -17,61 +17,6 @@ import powerscourtbrand from "../images/pianos/powerscourt-bechstein.jpg";
 import dangaming from "../images/bio/dmcm-gaming.jpg";
 import dansuit from "../images/bio/dmcm-suit.jpg";
 import danuku from "../images/bio/dmcm-uku.jpg";
-
-const Wrapper = styled.div`
-  margin: 0 auto;
-  width: 70%;
-  min-width: 600px;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: white;
-  line-height: 1.6;
-`;
-
-const TextBlock = styled.p`
-  text-align: left;
-  display: inline-block;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
-`
-
-const CenterBullets = styled.ul`
-  margin: auto;
-  padding: auto;
-  text-align: left;
-  list-style-position: inside;
-  display:inline-block;
-`;
-
-const Flip90Image = styled.img`
-  max-width: 500px;
-  max-height: 500px;
-  -webkit-transform: rotate(270deg);
- -moz-transform: rotate(270deg);
- -o-transform: rotate(270deg);
- -ms-transform: rotate(270deg);
- transform: rotate(270deg);
-`
-
-const FlippedImage = styled.img`
-  max-width: 500px;
-  max-height: 500px;
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
-`
-
-const StyledLink = styled.a`
-  text-decoration: none;
-  font-weight: bold;
-  color: DarkRed;
-  &:hover {
-    text-decoration: underline;
-  }
-`
 
 class Home extends Component {
   render() {

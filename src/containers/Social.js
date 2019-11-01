@@ -1,26 +1,6 @@
 import React, { Component } from "react";
+import { Wrapper, StyledLink } from "../utils/styles.js"
 import InstagramEmbed from 'react-instagram-embed';
-import styled from "styled-components";
-
-const Wrapper = styled.div`
-  margin: auto;
-  width: 20%;
-  min-width: 600px;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: white;
-  line-height: 1.6;
-`;
-
-const StyledLink = styled.a`
-  text-decoration: none;
-  font-weight: bold;
-  color: DarkRed;
-  &:hover {
-    text-decoration: underline;
-  }
-`
 
 class Social extends Component {
   render() {

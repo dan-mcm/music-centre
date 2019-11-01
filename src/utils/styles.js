@@ -19,6 +19,7 @@ export const Flip90Image = styled.img`
  border-radius: 50%;
  border: 2px solid DarkRed;
  max-width: 300px;
+ box-shadow: 10px 10px 5px grey;
 `
 
 export const FlippedImage = styled.img`

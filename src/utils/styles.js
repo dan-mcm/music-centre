@@ -16,6 +16,9 @@ export const Flip90Image = styled.img`
  -o-transform: rotate(270deg);
  -ms-transform: rotate(270deg);
  transform: rotate(270deg);
+ border-radius: 50%;
+ border: 2px solid DarkRed;
+ max-width: 300px;
 `
 
 export const FlippedImage = styled.img`

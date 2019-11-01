@@ -9,8 +9,8 @@ export const CenterBullets = styled.ul`
 `;
 
 export const Flip90Image = styled.img`
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 500px;
+  max-height: 500px;
   -webkit-transform: rotate(270deg);
  -moz-transform: rotate(270deg);
  -o-transform: rotate(270deg);
@@ -25,8 +25,8 @@ export const Flip90Image = styled.img`
 `
 
 export const FlippedImage = styled.img`
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 500px;
+  max-height: 500px;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);

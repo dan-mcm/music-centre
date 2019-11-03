@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Flex, Box } from "grid-styled";
 import styled from "styled-components";
+import darkbackground from "../images/beanstalk-dark.png";
 
 const CustomNav = styled.div`
-  background-image:  url("../images/beanstalk-dark.png");
+  background-image:  url("${darkbackground}");
   background-repeat: repeat;
   min-width: 600px;
 `

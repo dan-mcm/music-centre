@@ -4,7 +4,7 @@ import { Flex, Box } from "grid-styled";
 import styled from "styled-components";
 
 const CustomNav = styled.div`
-  background-image:  url("./images/beanstalk-dark.png");
+  background-image:  url("../images/beanstalk-dark.png");
   background-repeat: repeat;
   min-width: 600px;
 `

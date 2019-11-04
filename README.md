@@ -5,7 +5,7 @@
 [![XO code linter](https://img.shields.io/badge/code_linter-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 [![CircleCI](https://circleci.com/gh/daniel40392/music-centre/tree/master.svg?style=svg)](https://circleci.com/gh/daniel40392/music-centre/tree/master)
 
-A website that aims to provide a well-rounded basis for the study of music.
+A website that aims to provide a well-rounded reason for the study of music.
 
 Access:
 

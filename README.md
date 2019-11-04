@@ -11,12 +11,9 @@ This project is a website setup with [React](https://reactjs.org/) & [React Rout
 It takes advantage of multiple styling libraries including [Styled Components](https://www.styled-components.com/) & [Grid Styled](http://jxnblk.com/grid-styled/).
 
 [Prettier](https://github.com/prettier/prettier) is used for code styling throughout the project.
+[XO](https://github.com/xojs/xo) is used to enforce linting styles alongside Prettier.
 
-Future integration is planned with:
-
-* [XO](https://github.com/xojs/xo)
-* [pre-commit](https://www.npmjs.com/package/pre-commit)
-* [eslinting](https://eslint.org/).
+ A [pre-commit](https://www.npmjs.com/package/pre-commit) hook is setup to automatically run the code styler, linter and tests before enabling a successful push to the repo.
 
 ## Running Locally
 

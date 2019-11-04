@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import styled from "styled-components";
+import React, { Component } from 'react';
+import styled from 'styled-components';
 
 const CustomerHeader = styled.header`
   margin: auto;
@@ -14,7 +14,7 @@ const SiteTitle = styled.h1`
   color: white;
   font-family: 'Tangerine', serif;
   font-size: 50px;
-`
+`;
 
 class Header extends Component {
   render() {

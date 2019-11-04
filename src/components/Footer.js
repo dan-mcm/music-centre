@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import styled from "styled-components";
+import React, { Component } from 'react';
+import styled from 'styled-components';
 
 const CustomerFooter = styled.footer`
   margin: auto;
@@ -20,13 +20,16 @@ const CustomLink = styled.a`
   &:hover {
     text-decoration: underline;
   }
-`
+`;
 
 class Footer extends Component {
   render() {
     return (
       <CustomerFooter>
-        <CustomLink href="https://github.com/daniel40392">Daniel McMahon</CustomLink> 2019 ©
+        <CustomLink href="https://github.com/daniel40392">
+          Daniel McMahon
+        </CustomLink>
+        2019 ©
       </CustomerFooter>
     );
   }

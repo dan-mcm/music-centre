@@ -1,28 +1,28 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const CenterBullets = styled.ul`
   margin: auto;
   padding: auto;
   text-align: left;
   list-style-position: inside;
-  display:inline-block;
+  display: inline-block;
 `;
 
 export const Flip90Image = styled.img`
   max-width: 500px;
   max-height: 500px;
   -webkit-transform: rotate(270deg);
- -moz-transform: rotate(270deg);
- -o-transform: rotate(270deg);
- -ms-transform: rotate(270deg);
- transform: rotate(270deg);
- border-radius: 50%;
- border: 1px solid black;
- box-shadow: 10px 10px 5px grey;
- padding: 10px;
- border: 1px solid black;
- margin: 10px
-`
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  border-radius: 50%;
+  border: 1px solid black;
+  box-shadow: 10px 10px 5px grey;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+`;
 
 export const FlippedImage = styled.img`
   max-width: 500px;
@@ -35,8 +35,8 @@ export const FlippedImage = styled.img`
   box-shadow: -10px -10px 5px grey;
   padding: 10px;
   border: 1px solid black;
-  margin: 10px
-`
+  margin: 10px;
+`;
 
 export const NonbulletList = styled.ul`
   list-style: none
@@ -51,7 +51,7 @@ export const StyledLink = styled.a`
   &:hover {
     text-decoration: underline;
   }
-`
+`;
 
 export const TableCentered = styled.table`
   text-align: center;
@@ -74,7 +74,7 @@ export const TextBlock = styled.p`
   display: inline-block;
   padding-left: 2.5%;
   padding-right: 2.5%;
-`
+`;
 
 export const SourceBlock = styled.p`
   text-align: left;
@@ -83,7 +83,12 @@ export const SourceBlock = styled.p`
   padding-right: 2.5%;
   font-size: 12px;
   color: DarkRed;
-`
+`;
+
+export const StandardImage = styled.img`
+  max-width: 500px;
+  max-height: 500px;
+`;
 
 export const Wrapper = styled.div`
   margin: 0 auto;
@@ -94,9 +99,4 @@ export const Wrapper = styled.div`
   padding-bottom: 10px;
   background-color: white;
   line-height: 1.6;
-`
-
-export const StandardImage = styled.img`
-  max-width: 500px;
-  max-height: 500px;
-`
+`;

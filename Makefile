@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 
-APPLICATION_ID = react-portfolio
+APPLICATION_ID = music-centre
 
 # keep in sync with package.json
 VERSION = 0.1.0

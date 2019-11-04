@@ -3,17 +3,34 @@
 [![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://www.styled-components.com/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![XO code linter](https://img.shields.io/badge/code_linter-XO-5ed9c7.svg)](https://github.com/xojs/xo)
+[![CircleCI](https://circleci.com/gh/daniel40392/music-centre/tree/master.svg?style=svg)](https://circleci.com/gh/daniel40392/music-centre/tree/master)
+
+A website that aims to provide a well-rounded basis for the study of music.
+
+Access:
+
+* AWS Hosting: http://music-centre.info/
+* Github Pages: https://daniel40392.github.io/music-centre/
+
+## Overview
+
+Setup with:
+* [React](https://reactjs.org/)
+* [React Router](https://github.com/ReactTraining/react-router)
+
+Component libraries include:
+* [Styled Components](https://www.styled-components.com/)
+* [Grid Styled](http://jxnblk.com/grid-styled/).
+
+For Code Styling & Linting:
+* [Prettier](https://github.com/prettier/prettier) is used for code styling throughout the project.
+* [XO](https://github.com/xojs/xo) is used to enforce linting styles alongside Prettier.
 
 
-## Summary
-
-This project is a website setup with [React](https://reactjs.org/) & [React Router](https://github.com/ReactTraining/react-router).
-It takes advantage of multiple styling libraries including [Styled Components](https://www.styled-components.com/) & [Grid Styled](http://jxnblk.com/grid-styled/).
-
-[Prettier](https://github.com/prettier/prettier) is used for code styling throughout the project.
-[XO](https://github.com/xojs/xo) is used to enforce linting styles alongside Prettier.
-
- A [pre-commit](https://www.npmjs.com/package/pre-commit) hook is setup to automatically run the code styler, linter and tests before enabling a successful push to the repo.
+DevOps:
+* A [pre-commit](https://www.npmjs.com/package/pre-commit) hook is setup to automatically run the code styler, linter and tests before enabling a successful push to the repo.
+* In addition to the pre-commit hook basic [CircleCI](https://circleci.com/) test integration has been setup (see CircleCI badge above for current test status Passing/Failed). This will block merges to the master branch in the event tests fails on a PR.
+* A [Dockerfile](./Dockerfile) & [Makefile](./Makefile) are available for portable deployment.
 
 ## Running Locally
 

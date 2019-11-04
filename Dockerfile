@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:10
 
 MAINTAINER Daniel McMahon <daniel40392@gmail.com>
 

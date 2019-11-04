@@ -50,7 +50,7 @@ make deploy
 
 ## Tests
 
-To be added with [Jest](https://jestjs.io/)
+Handled by [ReactScripts](https://create-react-app.dev/docs/running-tests/) a pre-configured version of [Jest](https://jestjs.io/docs/en/getting-started) to save hassle with [Babel](https://babeljs.io/) configuration.
 
 ## Deployment & Hosting
 

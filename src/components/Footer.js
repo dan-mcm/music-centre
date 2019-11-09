@@ -28,7 +28,7 @@ class Footer extends Component {
       <CustomerFooter>
         <CustomLink href="https://github.com/daniel40392">
           Daniel McMahon
-        </CustomLink>
+        </CustomLink>{' '}
         2019 ©
       </CustomerFooter>
     );

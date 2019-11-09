@@ -31,6 +31,7 @@ DevOps:
 * A [pre-commit](https://www.npmjs.com/package/pre-commit) hook is setup to automatically run the code styler, linter and tests before enabling a successful push to the repo.
 * In addition to the pre-commit hook basic [CircleCI](https://circleci.com/) test integration has been setup (see CircleCI badge above for current test status Passing/Failed). This will block merges to the master branch in the event tests fails on a PR.
 * A [Dockerfile](./Dockerfile) & [Makefile](./Makefile) are available for portable deployment.
+* Google Analytics tracking enabled via the GA_ID environmental variable
 
 ## Running Locally
 

@@ -26,7 +26,7 @@ class Footer extends Component {
   render() {
     return (
       <CustomerFooter>
-        <CustomLink href="https://github.com/daniel40392">
+        <CustomLink href="https://github.com/dan-mcm">
           Daniel McMahon
         </CustomLink>{' '}
         2019 ©

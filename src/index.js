@@ -5,7 +5,9 @@ import Styles from './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactGA.initialize([{trackingId: process.env.GA_ID || 'default_google_analytics_code'}]);
+ReactGA.initialize([
+  { trackingId: process.env.GA_ID || 'default_google_analytics_code' }
+]);
 
 ReactDOM.render(<App style={Styles} />, document.querySelector('#root'));
 serviceWorker.register();

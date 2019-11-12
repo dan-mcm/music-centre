@@ -44,6 +44,18 @@ export const NonbulletList = styled.ul`
   padding: 0
 `;
 
+export const RoundedImage = styled.img`
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 100%;
+  border: 2px solid black;
+  box-shadow: 10px 10px 5px grey;
+  padding: 5px;
+  border: 1px solid black;
+  margin: 30px;
+  background-color: DarkRed;
+`;
+
 export const StyledLink = styled.a`
   text-decoration: none;
   font-weight: bold;

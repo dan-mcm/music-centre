@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
-import { CenterBullets, RoundedImage, StyledLink, TextBlock, Wrapper } from '../utils/styles';
+import {
+  CenterBullets,
+  RoundedImage,
+  StyledLink,
+  TextBlock,
+  Wrapper
+} from '../utils/styles';
 
 // Piano Images
 import connolly from '../images/pianos/connolly-train.jpg';

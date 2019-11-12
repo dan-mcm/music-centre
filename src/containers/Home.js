@@ -1,12 +1,5 @@
 import React, { Component } from 'react';
-import {
-  Wrapper,
-  TextBlock,
-  CenterBullets,
-  Flip90Image,
-  FlippedImage,
-  StyledLink
-} from '../utils/styles';
+import { CenterBullets, RoundedImage, StyledLink, TextBlock, Wrapper } from '../utils/styles';
 
 // Piano Images
 import connolly from '../images/pianos/connolly-train.jpg';
@@ -68,17 +61,14 @@ class Home extends Component {
             .
           </TextBlock>
           <br />
-          <br />
-          <br />
-          <br />
+
           <div>
-            <Flip90Image src={danuku} alt="Dan ukulele" />
-            <Flip90Image src={dansuit} alt="Dan suit" />
-            <Flip90Image src={dangaming} alt="Dan gaming" />
+            <RoundedImage src={danuku} alt="Dan ukulele" />
+            <RoundedImage src={dansuit} alt="Dan suit" />
+            <RoundedImage src={dangaming} alt="Dan gaming" />
           </div>
           {/* issue with flip images overlapping paragraph below */}
-          <br />
-          <br />
+
           <br />
         </div>
         <hr />
@@ -106,7 +96,7 @@ class Home extends Component {
           <p>If you see me out performing be sure to say hi!</p>
           <hr />
           <h3>
-            Train Stations (Looked after by
+            Train Stations (Looked after by{' '}
             <StyledLink href="https://www.murphypianotuning.ie/">
               Murphy&#39;s Piano Tuning
             </StyledLink>
@@ -136,7 +126,7 @@ class Home extends Component {
           <h3>Wexford Ferrycarrig Hotel</h3>
           <p>
             <img src={ferrycarrig} alt="Ferrycarrig piano 1" />
-            <FlippedImage src={ferrycarrigbrand} alt="Ferrycarrig piano 2" />
+            <img src={ferrycarrigbrand} alt="Ferrycarrig piano 2" />
           </p>
           <hr />
           <h3>Cork Metropole Hotel</h3>

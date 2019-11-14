@@ -7,6 +7,7 @@ import Methodology from './containers/Methodology';
 import MusicTheory from './containers/MusicTheory';
 import UsefulLinks from './containers/UsefulLinks';
 import Social from './containers/Social';
+import NotFound from './containers/NotFound';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
@@ -33,6 +34,7 @@ export default class AppRoutes extends Component {
           <Route exact path="/music-theory" component={MusicTheory} />
           <Route exact path="/useful-links" component={UsefulLinks} />
           <Route exact path="/social" component={Social} />
+          <Route path="*" component={NotFound} />
         </div>
         <Footer />
       </Router>

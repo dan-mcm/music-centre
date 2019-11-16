@@ -34,7 +34,6 @@ export default class AppRoutes extends Component {
           <Route exact path="/music-theory" component={MusicTheory} />
           <Route exact path="/useful-links" component={UsefulLinks} />
           <Route exact path="/social" component={Social} />
-          <Route path="*" component={NotFound} />
         </div>
         <Footer />
       </Router>
